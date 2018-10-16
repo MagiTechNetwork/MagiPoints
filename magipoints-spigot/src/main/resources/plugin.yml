@@ -1,0 +1,13 @@
+name: MagiPoints
+version: 1.0
+main: com.magitechserver.magipoints.MagiPointsSpigot
+depend: [GUI-API]
+commands:
+  mp:
+    description: Comando principal do MagiPoints
+    usage: /mp
+    aliases: [pontos]
+
+  mpa:
+    description: Comando de administradores do MagiPoints
+    usage: /mpa
